@@ -9,3 +9,5 @@ Server and client are seperate.
 
 All sources and game data are released under GPL.
 The vec2d stuff is taken from http://www.pygame.org/wiki/2DVectorClass
+
+Copyright (c) 2010 @ Sven-Hendrik 'Svenstaro' Haase
