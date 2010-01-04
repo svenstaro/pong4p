@@ -1,13 +1,26 @@
 pong4p
-============
+============================
 
+What is it?
+----------------------------
 A 4-player multiplayer pong clone written in Python.
 I apologize for the code and the performance as it was mostly an excercise in a
  school club.
 
-Server and client are seperate.
+Usage
+----------------------------
+First initialize a server by calling ./server.py which other players can join.
+Clients can then connect using ./client.py -i SERVERIP (e.g. 127.0.0.1).
+If clients can't fill up all the slots, bots will take their place.
 
+Calling either ./client.py -h or ./server.py -h will get you a list of 
+available program parameters.
+
+License
+----------------------------
 All sources and game data are released under GPL.
 The vec2d stuff is taken from http://www.pygame.org/wiki/2DVectorClass
+
+----------------------------
 
 Copyright (c) 2010 @ Sven-Hendrik 'Svenstaro' Haase
